@@ -293,7 +293,7 @@
                         <div class="time-grid" style="grid-template-columns: repeat(2, 1fr); margin-bottom: 10px; gap: 8px;">
                             <div class="selectable-box"><input type="radio" name="searchKeyword" value="낙성대 헬스장"><span class="box-label" style="padding:12px; font-size:13px;">#낙성대 헬스장</span></div>
                             <div class="selectable-box"><input type="radio" name="searchKeyword" value="낙성대역 헬스장"><span class="box-label" style="padding:12px; font-size:13px;">#낙성대역 헬스장</span></div>
-                            <div class="selectable-box"><input type="radio" name="searchKeyword" value=역 PT"><span class="box-label" style="padding:12px; font-size:13px;">#낙성대역 PT</span></div>
+                            <div class="selectable-box"><input type="radio" name="searchKeyword" value="낙성대 PT"><span class="box-label" style="padding:12px; font-size:13px;">#낙성대 PT</span></div>
                             <div class="selectable-box"><input type="radio" name="searchKeyword" value="기타" id="etcRadio"><span class="box-label" style="padding:12px; font-size:13px;">기타 검색어</span></div>
                         </div>
                         <input type="text" id="etcInput" name="etcInput" class="input-control" placeholder="검색어를 직접 입력해주세요" style="padding:12px; font-size:14px; display:none;">
@@ -368,8 +368,7 @@
 
     <script>
         // 대표님이 보내주신 마법의 구글 주소 연결
-        const GOOGLE_API_URL = "https://script.google.com/macros/s/AKfycbyfzL24fQ9XpjxwFmgL07g2oq0ghx2V6x9o2Eix9_6fnvJUj32MgQjP0rNi8_qFET6J9g/exec
-";
+        const GOOGLE_API_URL = "https://script.google.com/macros/s/AKfycbyfzL24fQ9XpjxwFmgL07g2oq0ghx2V6x9o2Eix9_6fnvJUj32MgQjP0rNi8_qFET6J9g/exec";
 // ▼▼▼ 4번 문항: 연락처 자동 하이픈(-) 스크립트 ▼▼▼
         document.getElementById('userPhone').addEventListener('input', function (e) {
             // 1. 입력된 값에서 숫자만 쏙 골라냅니다.
